@@ -1,0 +1,21 @@
+For Q2:
+
+Command:
+python postagger_Q2.py data_public/hw3_train data_public/hw3_heldout
+
+The output should look like this:
+Accuracy in training [35000 sentences]: 94.6001118299
+Accuracy in training [13928 sentences]: 92.1742134515
+----------------------------------------------------------------------
+
+For Q3:
+Command:
+python postagger_Q3.py data_public/hw3_train data_public/hw3_heldout
+
+The output should look like this:
+Elapsed time for Creating Model was 0.553131 seconds
+Elapsed time for Calculating Accuracy was 146.704 seconds
+Accuracy in training [13928 sentences]: 93.5824550132
+Elapsed time for Calculating Accuracy was 380.916 seconds
+Accuracy in training [35000 sentences]: 95.4105168275
+----------------------------------------------------------------------
