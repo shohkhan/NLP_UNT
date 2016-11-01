@@ -75,6 +75,12 @@ def main(en_tr, es_tr, folder_te):
         f_path =  os.path.join(folder, f)
         print "%s\t%s" % (f, predict(f_path, model_en, model_es))
 
+    folder = os.path.join(folder_te, "fr")
+    print "\nPrediction for French documents in test:"
+    for f in os.listdir(folder):
+        f_path =  os.path.join(folder, f)
+        print "%s\t%s" % (f, predict(f_path, model_en, model_es))
+    
 if __name__ == "__main__":
     usage = "usage: %prog [options] EN_TR ES_TR FOLDER_TE"
     parser = OptionParser(usage=usage)
